@@ -4,8 +4,7 @@ const messages = [
 "ой",  
 "вернее",  
 "с",  
-"днём",  
-"валентина",  
+"четвергом", 
 "Нажми на сердечко"
 ];
 let currentPage = 0;
@@ -54,4 +53,5 @@ showMessage();
 window.onload = function() {
     clearMusicState(); 
 }
+
 document.addEventListener('DOMContentLoaded', setupMusic);
